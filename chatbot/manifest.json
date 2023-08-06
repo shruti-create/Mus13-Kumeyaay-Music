@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Music Chrome Extension",
+    "version": "1.0",
+    "description": "A simple extension to showcase Musical traditions and cultures. ",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab"
+    ]
+  }

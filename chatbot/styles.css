@@ -1,0 +1,59 @@
+.chat-container {
+    background-color: #edcaaa; 
+    color: #edcaaa; 
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.chat-messages {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+
+.chat-bot {
+    background-color: #6e5643; 
+    color: #edcaaa;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.chat-input {
+    display: flex;
+    align-items: center;
+}
+
+.question-button {
+    background-color: #6e5643; 
+    color: #edcaaa; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.question-button:hover {
+    background-color: #916c59; 
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.sender {
+    font-weight: bold;
+    color: #7e6043; 
+}
+
+.message {
+    background-color: #644a38; 
+    color: #edcaaa; 
+    border-radius: 10px;
+    padding: 10px;
+}
